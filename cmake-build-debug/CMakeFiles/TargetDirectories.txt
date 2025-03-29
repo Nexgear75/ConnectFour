@@ -1,0 +1,3 @@
+/Users/alexfougeroux/Documents/ESAIP/ING3/Erasmus/ConnectFour/cmake-build-debug/CMakeFiles/ConnectFour.dir
+/Users/alexfougeroux/Documents/ESAIP/ING3/Erasmus/ConnectFour/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alexfougeroux/Documents/ESAIP/ING3/Erasmus/ConnectFour/cmake-build-debug/CMakeFiles/rebuild_cache.dir
