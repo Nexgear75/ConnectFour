@@ -24,7 +24,7 @@ void Game::play() {
 
         if (board.checkWin(currentPlayer->getSymbol())) {
             board.display();
-            std::cout << currentPlayer->getColoredSymbol() << " wins!\n";
+            std::cout << "\n" <<currentPlayer->getColoredSymbol() << " wins!\n";
             isGameOver = true;
         } else {
             switchPlayer();
