@@ -13,29 +13,12 @@ This is a simple **Connect Four** game implemented in C++ using **Object-Oriente
 ## Installation
 ### Prerequisites
 - **C++ Compiler** (GCC, Clang, or MSVC)
-- **CMake (optional)** if using CLion or another build system
 
 ## Compilation and Execution
 ### Using Terminal
 To compile and run manually:
 ```sh
  g++ -std=c++17 -o connect_four main.cpp Game.cpp Board.cpp Player.cpp && ./connect_four
-```
-
-### Using CMake (Recommended for CLion)
-1. Ensure you have a `CMakeLists.txt` file in the project directory:
-```cmake
-cmake_minimum_required(VERSION 3.10)
-project(ConnectFour)
-set(CMAKE_CXX_STANDARD 17)
-add_executable(connect_four main.cpp Game.cpp Board.cpp Player.cpp)
-```
-2. Run the following commands:
-```sh
-mkdir build && cd build
-cmake ..
-make
-./connect_four
 ```
 
 ## How to Play
